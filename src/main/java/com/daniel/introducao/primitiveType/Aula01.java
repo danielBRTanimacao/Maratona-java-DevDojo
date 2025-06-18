@@ -1,4 +1,4 @@
-package com.daniel.primitiveType;
+package com.daniel.introducao.primitiveType;
 
 public class Aula01 {
     public static void main(String[] args) {

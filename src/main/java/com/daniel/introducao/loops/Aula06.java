@@ -1,4 +1,4 @@
-package com.daniel.loops;
+package com.daniel.introducao.loops;
 
 public class Aula06 {
     public static void main(String[] args) {

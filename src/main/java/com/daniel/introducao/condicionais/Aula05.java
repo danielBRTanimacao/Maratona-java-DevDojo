@@ -1,4 +1,4 @@
-package com.daniel.condicionais;
+package com.daniel.introducao.condicionais;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.daniel.aritimeticos;
+package com.daniel.introducao.aritimeticos;
 
 public class Aula04 {
     public static void main(String[] args) {
