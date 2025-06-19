@@ -1,7 +1,6 @@
-package com.daniel.javacore.introducao;
+package com.daniel.javacore.introducao.test;
 
 import com.daniel.javacore.introducao.domain.Student;
-import com.daniel.javacore.introducao.mytests.StudentManager;
 
 public class PersonTest {
     public static void main(String[] args) {
