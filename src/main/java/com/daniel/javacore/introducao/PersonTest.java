@@ -1,12 +1,13 @@
 package com.daniel.javacore.introducao;
 
-import com.daniel.javacore.introducao.domain.Person;
-import com.daniel.javacore.introducao.domain.Student;
+import com.daniel.javacore.introducao.mytests.Student;
+import com.daniel.javacore.introducao.mytests.StudentManager;
 
 public class PersonTest {
     public static void main(String[] args) {
-        Student cleitinho = new Student("Cleitinho", 13, 'M', "emailtest123@gmail.com");
+        Student cleitin = new Student("Cleitin", 14, 'M', "email123@gmail.com");
+        StudentManager gerente = new StudentManager(cleitin);
 
-        cleitinho.getInfos();
+        gerente.setStudentClass(1);
     }
 }

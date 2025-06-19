@@ -1,8 +1,6 @@
-package com.daniel.javacore.introducao.domain;
+package com.daniel.javacore.introducao.mytests;
 
-import java.util.Random;
-
-public class Student extends StudentSystem {
+public class Student extends Person {
     private int id;
     private String roomClass;
 
@@ -11,11 +9,16 @@ public class Student extends StudentSystem {
         this.id++;
     }
 
-    public void getInfos() {
+    protected void getInfos() {
         System.out.println("Informações do estudante");
         System.out.println("Identificador " + this.id);
+        System.out.println("Sala " + this.roomClass);
         System.out.println("Nome " + this.username);
         System.out.println("Idade " + this.age);
         System.out.println("Genero " + this.gender);
+    }
+
+    protected void setClass(String roomClass) {
+        this.roomClass = roomClass;
     }
 }

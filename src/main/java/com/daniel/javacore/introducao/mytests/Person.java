@@ -1,4 +1,4 @@
-package com.daniel.javacore.introducao.domain;
+package com.daniel.javacore.introducao.mytests;
 
 public class Person {
     public String username;
