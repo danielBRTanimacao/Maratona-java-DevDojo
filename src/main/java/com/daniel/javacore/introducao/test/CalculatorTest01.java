@@ -19,7 +19,13 @@ public class CalculatorTest01 {
         double result4 = calculator.divide(6, 3);
         System.out.println(result4);
 
-        int result5 = calculator.findsqr(25);
+        double result5 = calculator.square(5);
         System.out.println(result5);
+
+        System.out.println(calculator.convertNumberTo(2, "m", "cm", 1));
+
+        double result6 = calculator.elevateNum(10, 2);
+        System.out.println(result6);
+
     }
 }
