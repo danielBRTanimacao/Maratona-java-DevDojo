@@ -85,4 +85,13 @@ public class Calculator {
         return num1 + " " + num2;
     }
 
+    // Var args precisa ser o ultimo valor
+    public int sumVarArgs(int... numbers) {
+        int total = 0;
+        for (int num: numbers) {
+            total += num;
+        }
+        return total;
+    }
+
 }
