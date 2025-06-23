@@ -2,7 +2,6 @@ package com.daniel.javacore.introducao.test;
 
 import com.daniel.javacore.introducao.domain.Employee;
 
-import java.math.BigDecimal;
 
 public class EmployeeTest {
     public static void main(String[] args) {
