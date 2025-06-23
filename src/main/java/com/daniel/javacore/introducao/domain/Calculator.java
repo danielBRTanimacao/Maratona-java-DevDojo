@@ -79,4 +79,10 @@ public class Calculator {
         return multiTen * num + toConvert + elevateLvl;
     }
 
+    public String changeValues(int num1, int num2) {
+        num1 = 99;
+        num2 = 89;
+        return num1 + " " + num2;
+    }
+
 }
