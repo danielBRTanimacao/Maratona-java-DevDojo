@@ -3,6 +3,16 @@ package com.daniel.javacore.introducao.sobrecarga;
 public class Anime {
     private String type;
     private int episodes;
+    private String studio;
+
+    public Anime(String type, int episodes) {
+        this.type = type;
+        this.episodes = episodes;
+    }
+
+    public Anime(String studio) {
+        this.studio = studio;
+    }
 
     public void print(String type, int episodes) {
         System.out.println("Tipo do anime: " + type);
@@ -28,5 +38,13 @@ public class Anime {
 
     public void setEpisodes(int episodes) {
         this.episodes = episodes;
+    }
+
+    public String getStudio() {
+        return studio;
+    }
+
+    public void setStudio(String studio) {
+        this.studio = studio;
     }
 }
