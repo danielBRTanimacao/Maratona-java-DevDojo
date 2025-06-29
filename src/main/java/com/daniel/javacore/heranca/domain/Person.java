@@ -1,4 +1,4 @@
-package com.daniel.javacore.heranca;
+package com.daniel.javacore.heranca.domain;
 
 import lombok.Getter;
 import lombok.Setter;

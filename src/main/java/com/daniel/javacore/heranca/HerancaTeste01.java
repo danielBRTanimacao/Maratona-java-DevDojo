@@ -1,5 +1,8 @@
 package com.daniel.javacore.heranca;
 
+import com.daniel.javacore.heranca.domain.Employee;
+import com.daniel.javacore.heranca.domain.Person;
+
 public class HerancaTeste01 {
     public static void main(String[] args) {
         Person person = new Person("Daniel");
