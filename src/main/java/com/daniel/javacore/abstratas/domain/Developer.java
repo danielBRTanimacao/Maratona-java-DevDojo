@@ -6,4 +6,10 @@ public class Developer extends Employee {
     public Developer(String username, double salary) {
         super(username, salary);
     }
+
+    @Override
+    public void updateSalary() {
+        this.salary += this.salary * .15;
+    }
+
 }
