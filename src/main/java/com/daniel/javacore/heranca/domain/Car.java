@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Car {
+public class Car { // se possuir final ela não pode ser herdada
     protected String name;
     // Para constantes finais recomendado palavras maiusculas utilizando thunder
     //public static final double VELOCITY_LIMIT = 285;
@@ -20,5 +20,9 @@ public class Car {
 
     public Car(String name) {
         this.name = name;
+    }
+
+    public final void print() {
+        System.out.println(this.name);
     }
 }

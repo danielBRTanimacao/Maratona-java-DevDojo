@@ -2,6 +2,7 @@ package com.daniel.javacore.heranca;
 
 import com.daniel.javacore.heranca.domain.Buyer;
 import com.daniel.javacore.heranca.domain.Car;
+import com.daniel.javacore.heranca.domain.Subaru;
 
 public class CarTeste01 {
     public static void main(String[] args) {
@@ -15,5 +16,8 @@ public class CarTeste01 {
         System.out.println(car.BUYER.getName());
 
         // RECOMENDAÇÃO SINGLETON PATTERN
+
+        Subaru subaru = new Subaru("Impenza");
+        subaru.print();
     }
 }
